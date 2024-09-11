@@ -1,0 +1,75 @@
+/* styles.css */
+header {
+    background-color: #333; /* Sets the background color to black */
+}
+
+.logo{
+    border: none;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff !important; /* Ensures the text is white for better contrast */
+}
+
+.nav-link:hover {
+    color: #ccc !important; /* Changes the text color to light gray on hover */
+}
+
+.dropdown-menu {
+    background-color: #333; /* Darkens the dropdown menu background */
+}
+
+.dropdown-menu a {
+    color: #fff; /* Makes dropdown menu items white */
+}
+
+.dropdown-menu a:hover {
+    background-color: #555; /* Changes background on hover */
+    color: #fff; /* Keeps text white on hover */
+}
+
+/* Additional Styling */
+.jumbotron {
+    background-color: #007bff; /* Sets background color of the jumbotron */
+    color: #fff; /* Sets text color to white */
+}
+
+.jumbotron .btn-light {
+    color: #007bff; /* Sets button text color to match the jumbotron background */
+    border-color: #007bff; /* Sets button border color to match the jumbotron background */
+}
+
+.infrastructure{
+    border: solid;
+    border-width: 10px;
+    border-color: #555;
+    border-radius: 30%;
+    margin-left: 100px
+}
+
+.card {
+    border: solid; /* Removes card border */
+}
+
+.card-title {
+    color: #333; /* Sets card title color */
+}
+
+.card-text {
+    color: #666; /* Sets card text color */
+}
+
+footer {
+    background-color: #f8f9fa; /* Sets footer background color */
+    color: #333; /* Sets footer text color */
+}
+
+footer a {
+    color: #007bff; /* Sets footer link color */
+}
+
+footer a:hover {
+    color: #0056b3; /* Changes footer link color on hover */
+}
